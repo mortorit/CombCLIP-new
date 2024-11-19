@@ -1,0 +1,44 @@
+{
+    "ensembled_embedding": {
+        "config": "./data/Ensembled_embedding.yaml",
+        "train": "train",
+        "test": "train",
+        "usage": "train"
+    },  
+    "ensembled": {
+        "config": "./data/Ensembled.yaml",
+        "train": "train",
+        "test": "train",
+        "usage": "train"
+    },
+    "cap3d": {
+        "config": "/data/openshape/cap3d.yaml",
+        "train": "train",
+        "test": "train",
+        "usage": "train"
+    },
+    "cap3d_ensemble": {
+        "config": "/data/openshape/cap3d_ensemble.yaml",
+        "train": "train",
+        "test": "train",
+        "usage": "train"
+    },
+    "objaverse_lvis_openshape": {
+        "config": "/data/openshape/Objaverse_lvis_openshape.yaml",
+        "train": "train",
+        "test": "test",
+        "usage": "test"
+    },
+    "modelnet40_openshape": {
+        "config": "/data/openshape/ModelNet40_openshape.yaml",
+        "train": "train",
+        "test": "test",
+        "usage": "test"
+    },
+    "scanobjnn_openshape": {
+        "config": "/data/openshape/ScanObjNN_openshape.yaml",
+        "train": "train",
+        "test": "test",
+        "usage": "test"
+    }
+}
